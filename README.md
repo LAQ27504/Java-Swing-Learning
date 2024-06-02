@@ -6,4 +6,7 @@ The day that I started to learn is 2nd of June and my target for learning this i
 
 ### Daily Log
 #### 2nd of June
+I have learn how to using JFrame to create an application frame and label to add text and icon.
 
+##### Note:
+When we pass the file path address, we have to write a path with directory in  the project then the name of the file. Example: "src/Main/Hi.png"
