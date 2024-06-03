@@ -8,35 +8,44 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.border.Border;
 
 public class Main {
 	public static void main(String[] args) {		
-		ImageIcon image1 = new ImageIcon("src/Main/Hi.png");
+		//JPanel is a GUI component that functions as a container to hold other component
 		
-		Border border = BorderFactory.createLineBorder(Color.green, 3);
 		
-		JLabel label = new JLabel(image1);
-		label.setText("Hello world");
-		label.setIcon(image1);	
-		label.setHorizontalTextPosition(JLabel.CENTER);
+		//Mylabel label = new Mylabel();
+		
+		JLabel label = new JLabel();
+		label.setText("troll ha ha hahahahahahaahahahahahahaa");
+		label.setFont(new Font("MV Boli", Font.BOLD ,50));
+		label.setBounds(0, 0, 500, 200);
 		label.setVerticalTextPosition(JLabel.TOP);
-		label.setForeground(Color.green);
-		label.setFont(new Font("MV Boli", Font.BOLD, 50));
-		label.setIconTextGap(-10);
-		label.setBackground(Color.black);
-		//Display background color
-		label.setOpaque(true);
-		//Set border
-		label.setBorder(border);
-		//Set vertical position of all within label
-		label.setVerticalAlignment(JLabel.CENTER);
-		//Set Horizontal position of all within label
-		label.setHorizontalAlignment(JLabel.CENTER);
+		label.setHorizontalAlignment(JLabel.LEFT);
 		
+		MyPanel redPanel = new MyPanel();
+		redPanel.setBackground(Color.red);
+		redPanel.setBounds(0, 0, 350, 350);
+		redPanel.setLayout(null);
+		
+		MyPanel bluePanel = new MyPanel();
+		bluePanel.setBackground(Color.blue);
+		bluePanel.setBounds(350, 0, 350, 350);
+		
+		MyPanel greenPanel = new MyPanel();
+		greenPanel.setBackground(Color.green);
+		greenPanel.setBounds(0, 350, 700, 350);
 		
 		MyFrame myFrame = new MyFrame();
-		myFrame.add(label);
-
+		myFrame.setLayout(null);
+		myFrame.add(redPanel);
+		myFrame.add(bluePanel);
+		myFrame.add(greenPanel);
+		redPanel.add(label);
+		//myFrame.add(label);
+		//set the size of the app to fit all the label in the app that we have add before
+		//myFrame.pack();
 	}
 }

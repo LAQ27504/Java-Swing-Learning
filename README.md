@@ -10,3 +10,6 @@ I have learn how to using JFrame to create an application frame and label to add
 
 ##### Note:
 When we pass the file path address, we have to write a path with directory in  the project then the name of the file. Example: "src/Main/Hi.png"
+
+#### 3rd of June
+I have learn how to using JLabel and JPanel for customize text, content in different part of the JFrame. There still have some more things that I haven't learned yet, but when I have personal project I will figure it out by my self
