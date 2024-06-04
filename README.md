@@ -13,3 +13,6 @@ When we pass the file path address, we have to write a path with directory in  t
 
 #### 3rd of June
 I have learn how to using JLabel and JPanel for customize text, content in different part of the JFrame. There still have some more things that I haven't learned yet, but when I have personal project I will figure it out by my self
+
+### 4th of June
+I learn more about layout - border layout and flow layout to make app more organize

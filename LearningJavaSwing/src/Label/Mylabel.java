@@ -1,4 +1,4 @@
-package Main;
+package Label;
 
 import java.awt.Color;
 import java.awt.Font;
