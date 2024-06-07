@@ -16,3 +16,8 @@ I have learn how to using JLabel and JPanel for customize text, content in diffe
 
 ### 4th of June
 I learn more about layout - border layout and flow layout to make app more organize
+
+## 8th of June
+I have missed someday not upload my learning tracking. I need to fixed that.
+
+However I have learned about layout and layered pane for customizing the layer and adding component into the each frame or panel.
