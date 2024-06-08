@@ -14,12 +14,12 @@ public class Mylabel extends JLabel{
 		
 		Border border = BorderFactory.createLineBorder(Color.green, 3);
 		
-		this.setText("Hello world");
+		this.setText("Xin Chào Thế Giới");
 		this.setIcon(image1);	
 		this.setHorizontalTextPosition(JLabel.CENTER);
 		this.setVerticalTextPosition(JLabel.TOP);
 		this.setForeground(Color.green);
-		this.setFont(new Font("MV Boli", Font.BOLD, 50));
+		this.setFont(new Font("Times New Roman", Font.BOLD, 50));
 		this.setIconTextGap(-10);
 		this.setBackground(Color.black);
 		//Display background color

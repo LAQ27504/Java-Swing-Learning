@@ -21,3 +21,7 @@ I learn more about layout - border layout and flow layout to make app more organ
 I have missed someday not upload my learning tracking. I need to fixed that.
 
 However I have learned about layout and layered pane for customizing the layer and adding component into the each frame or panel.
+
+## 9th of June
+I have learned JOptionPane to open new window box for some customize option like warning, show infor and get input. And TextField for getting input in a frame with customize font and color
+
