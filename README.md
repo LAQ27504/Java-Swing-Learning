@@ -14,16 +14,16 @@ When we pass the file path address, we have to write a path with directory in  t
 #### 3rd of June
 I have learn how to using JLabel and JPanel for customize text, content in different part of the JFrame. There still have some more things that I haven't learned yet, but when I have personal project I will figure it out by my self
 
-### 4th of June
+#### 4th of June
 I learn more about layout - border layout and flow layout to make app more organize
 
-## 8th of June
+#### 8th of June
 I have missed someday not upload my learning tracking. I need to fixed that.
 
 However I have learned about layout and layered pane for customizing the layer and adding component into the each frame or panel.
 
-## 9th of June
+#### 9th of June
 I have learned JOptionPane to open new window box for some customize option like warning, show infor and get input. And TextField for getting input in a frame with customize font and color
 
-## 10th of June 
+#### 10th of June 
 I have worked on Checkbox, radio button, combo boxes, slider for getting some useful input from user. And progress bar for show the customize progress of a program that we build. We could show the menu bar for the selected menu in the program
