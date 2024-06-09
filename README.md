@@ -25,3 +25,5 @@ However I have learned about layout and layered pane for customizing the layer a
 ## 9th of June
 I have learned JOptionPane to open new window box for some customize option like warning, show infor and get input. And TextField for getting input in a frame with customize font and color
 
+## 10th of June 
+I have worked on Checkbox, radio button, combo boxes, slider for getting some useful input from user. And progress bar for show the customize progress of a program that we build. We could show the menu bar for the selected menu in the program
