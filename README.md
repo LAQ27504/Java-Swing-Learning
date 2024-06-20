@@ -29,4 +29,4 @@ I have learned JOptionPane to open new window box for some customize option like
 I have worked on Checkbox, radio button, combo boxes, slider for getting some useful input from user. And progress bar for show the customize progress of a program that we build. We could show the menu bar for the selected menu in the program
 
 #### 20th of June
-I started to learn more about the working between event such as mouse and keyboard event.
+I started to learn more about the working between event such as mouse and keyboard event. Moreover, I can make a simple program to create a drag and drop picture, key binding and 2d painting and animation

@@ -1,5 +1,6 @@
 package DragDrop;
 
+import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Point;
@@ -20,6 +21,7 @@ public class DragPanel extends JPanel{
 	Point prevPT; 
 	
 	public DragPanel() {
+		//this.setPreferredSize(new Dimension(1000, 1000));
 		imageCornerPoint = new Point(0, 0);
 		ClickListener clickListener = new ClickListener();
 		DragListener dragListener = new DragListener();
@@ -27,10 +29,10 @@ public class DragPanel extends JPanel{
 		this.addMouseMotionListener(dragListener);
 	}
 
-	
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
+
 		imageIcon.paintIcon(this, g, (int)imageCornerPoint.getX(),(int)imageCornerPoint.getY());
 	}
 	
@@ -41,9 +43,8 @@ public class DragPanel extends JPanel{
 	}
 	
 	private class DragListener extends MouseMotionAdapter{
-		public void mouseDragger(MouseEvent e) {
-			Point currentPoint = new Point();
-			
+		public void mouseDragged(MouseEvent e) {
+			Point currentPoint = e.getPoint();
 			imageCornerPoint.translate((int)(currentPoint.getX() - prevPT.getX()), (int)(currentPoint.getY() - prevPT.getY()));
 			prevPT = currentPoint;
 			repaint();
