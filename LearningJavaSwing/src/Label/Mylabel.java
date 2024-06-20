@@ -10,7 +10,7 @@ import javax.swing.border.Border;
 
 public class Mylabel extends JLabel{
 	public Mylabel() {
-		ImageIcon image1 = new ImageIcon("src/Main/Hi.png");
+		ImageIcon image1 = new ImageIcon("src/DragDrop/troll1.png");
 		
 		Border border = BorderFactory.createLineBorder(Color.green, 3);
 		
